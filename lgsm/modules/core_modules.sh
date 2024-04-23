@@ -406,6 +406,11 @@ fix_mcb.sh() {
 	fn_fetch_module
 }
 
+fix_lo.sh() {
+	modulefile="${FUNCNAME[0]}"
+	fn_fetch_module
+}
+
 fix_mta.sh() {
 	modulefile="${FUNCNAME[0]}"
 	fn_fetch_module
